@@ -1,4 +1,5 @@
 package animal;
+import java.util.ArrayList;
 
 public class PolymorphismLab {
     public static void main(String [] args) {
@@ -33,12 +34,13 @@ public class PolymorphismLab {
         animals.add(new Dog("Rex"));
         animals.add(new Cat("Luna"));
 
-        for(Animal anima : animals){
-            amimal.speak()
+        for(Animal animal : animals){
+            animal.speak();
         }
       /*
-
-
+         It sohuld print woof, meow, ribbit, woof, meow,
+         A cat, dog, frog is a animal
+         while a dog isnt a cat or a frog
        */
     }
 }
